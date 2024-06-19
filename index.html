@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rusty Anchor Tavern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>The Rusty Anchor Tavern</h1>
+            <button id="homeButton" class="home-button">Home</button>
+        </div>
+        <div class="character-info">
+            <div class="portrait">
+                <img id="charPortrait" src="default-portrait.png" alt="Character Portrait">
+            </div>
+            <div class="stats">
+                <h2>Character Stats</h2>
+                <p id="charName">Name: </p>
+                <p id="charClass">Class: </p>
+                <p id="charHealth">Health: </p>
+                <p id="charAttack">Attack: </p>
+                <p id="charGold">Gold: </p>
+            </div>
+            <div class="inventory">
+                <h2>Inventory</h2>
+                <ul id="inventoryList"></ul>
+            </div>
+        </div>
+        <div id="gameOutput" class="game-output"></div>
+        <div id="gameControls" class="game-controls"></div>
+    </div>
+    <audio id="backgroundMusic" src="background-music.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
